@@ -1,0 +1,84 @@
+.container {
+    margin: 100px auto;
+    padding: 40px 50px;
+    background: #fffdf5;
+    width: 450px;
+    border-radius: 12px;
+    color: #262626;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E2E8F0;
+}
+
+.container hr {
+    height: 2px;
+    background-color: #262626;
+    border: none;
+    margin: 20px 0;
+}
+
+.container h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container .options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.container .options .option {
+    list-style: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container .submit {
+    align-self: flex-end;
+    width: 150px;
+    height: 50px;
+    background: #272069;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+.index {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.container .correct {
+    background-color: #d4edda !important;
+    border-color: #28a745 !important;
+}
+
+.container .wrong {
+    background-color: #f8d7da !important;
+    border-color: #dc3545 !important;
+}
